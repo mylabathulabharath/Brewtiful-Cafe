@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brewtiful Café</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css')}}" />
+  </head>
+  <body>
+    <header>
+      <h1>Brewtiful Café</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/survey" class="highlight">Take Survey</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Welcome to Brewtiful Café</h2>
+        <p>
+          Your daily dose of warmth, love, and great coffee. Come, brew
+          happiness with us!
+        </p>
+        <a href="/menu" class="btn">Explore Our Menu</a>
+      </section>
+      <section class="highlight-section">
+        <div class="highlight-card">
+          <img src="/static/coffee.jpg" alt="Coffee" />
+          <h3>Exquisite Coffee</h3>
+          <p>Crafted to perfection, every sip is a story.</p>
+        </div>
+        <div class="highlight-card">
+          <img src="/static/tea.jpg" alt="Tea" />
+          <h3>Refreshing Teas</h3>
+          <p>Calm your senses with our handpicked selections.</p>
+        </div>
+        <div class="highlight-card">
+          <img src="/static/smoothies.jpg" alt="Smoothies" />
+          <h3>Delicious Smoothies</h3>
+          <p>Fresh, healthy, and irresistibly tasty.</p>
+        </div>
+        <div class="highlight-card">
+          <img src="/static/juices.jpg" alt="Juices" />
+          <h3>Fruity Juices</h3>
+          <p>Refreshing and healthy juices to brighten your day.</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Brewtiful Café | Made with ❤️</p>
+    </footer>
+  </body>
+</html>
