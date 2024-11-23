@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Brewtiful Café</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='about.css')}}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>About Brewtiful Café</h1>
+      <p class="tagline">"Every sip tells a story brewed with love."</p>
+    </header>
+    <section class="about">
+      <p>
+        Welcome to Brewtiful Café, where every cup is brewed with love and
+        creativity. Our space offers the perfect blend of comfort and joy for
+        coffee lovers and food enthusiasts alike. Whether it's a quick espresso
+        or a lazy afternoon with friends, Brewtiful Cafe is the place to be!
+      </p>
+      <h2>Our Vision</h2>
+      <p>
+        To create a welcoming space for people to connect, unwind, and enjoy the
+        finest coffee and beverages.
+      </p>
+      <h2>Meet the Team</h2>
+      <div class="team">
+        <div class="team-member">
+          <p><strong>Emily Johnson</strong><br />Head Barista</p>
+        </div>
+        <div class="team-member">
+          <p><strong>Marcus Lee</strong><br />Barista</p>
+        </div>
+      </div>
+    </section>
+    <h1 class="sneak">A Sneak Peek</h1>
+    <div class="image-container">
+      <img src="/static/outside.jpg" alt="outside" />
+      <img src="/static/barista.jpg" alt="barista" />
+      <img src="/static/interior.jpg" alt="interior" />
+      <img src="/static/outdoor.jpg" alt="outdoor" />
+    </div>
+  </body>
+</html>
